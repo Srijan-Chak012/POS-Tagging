@@ -12,7 +12,7 @@ I have used the train function to train this pos_tagger model, and have now comm
 
 # Results
 The model achieved an overall accuracy of 89% on the test set of the UD_English-Atis dataset. The precision, recall, and F1-score for each of the datasets are shown in below.
-
+<!-- 
 Train Set
 Accuracy: 0.8818751924537418
 F1: 0.9206288209941081
@@ -29,4 +29,10 @@ Test set
 Accuracy: 0.8896858018542312
 F1: 0.9266106581615378
 Precision: 0.9314654970987201
-Recall: 0.9414749413784709
+Recall: 0.9414749413784709 -->
+
+|    Set          | Accuracy | F1 score | Precision | Recall |
+|   :---:         | :---:    | :---:    | :---:     | :---:  |
+| Train Set       | 0.882    | 0.921 | 0.926 | 0.936 |
+| Validation Set  | 0.881    | 0.923 | 0.927 | 0.941 |
+| Test Set        | 0.890    | 0.927 | 0.931 | 0.941 |
